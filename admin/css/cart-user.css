@@ -1,0 +1,57 @@
+body{
+	font-family: Arial;
+	margin: 0;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.header-top{
+	padding: 0 3px;
+	line-height: 30px;
+	background-color: #f4f4f4;
+}
+
+.container{
+	width: 1170px;
+	margin: auto;
+	padding: 0 15px;
+}
+
+.row{
+	width: 1170px;
+}
+
+.row span{
+	font-size: 13px;
+}
+
+.header-top-Amenu{
+	display: flex;
+	font-size: 13px;
+	float: right;
+	margin: 0;
+}
+
+.header-top-Amenu li{
+	padding: 0 15px;
+}
+
+.header-top-Amenu span:hover{
+	color: red;
+	cursor: pointer;
+}
+
+.header-top-Amenu a:hover{
+	color: red;
+}

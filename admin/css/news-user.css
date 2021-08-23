@@ -1,0 +1,207 @@
+body{
+	font-family: Arial;
+	margin: 0;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+header{
+	height: 50px;
+	background-color: #dd4b39;
+}
+
+.header-title a{
+	color: white;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+#user-main{
+	line-height: 50px;
+	float: right;
+	color: white;
+	padding: 0;
+	height: 50px;
+	width: auto;
+}
+
+.user-login ul{
+	padding: 0;
+	background-color: #212c32;
+}
+
+.user-login ul li{
+	border-bottom: 1px solid #cccccc;
+	padding: 5px 0;
+}
+
+.user-login ul li a{
+	color: white;
+	padding-left: 15px;
+}
+
+.sidebar{
+	background-color: #212c32;
+	width: 250px;
+	height: 900px;
+}
+
+.sidebar-user{
+	display: flex;
+	padding: 10px;
+}
+
+.sidebar-user-title{
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#situation-color{
+	margin-top: 6px;
+	margin-right: 5px;
+	width: 10px;
+	height: 10px;
+}
+
+img#situation-color:not(:first-child){
+	display: none;
+}
+
+.control{
+	background-color: #192125;
+	color: #354750;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 20px;
+}
+
+.sidebar-menu ul{
+	padding-left: 0;
+}
+
+.sidebar-menu ul li{
+	padding: 20px 0;
+}
+
+.sidebar-menu ul li a{
+	color: white;
+	padding: 20px 0;
+	padding-left: 20px;
+}
+
+.content{
+	background-color: #ebf0f4;
+	height: 900px;
+}
+
+.content-header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.content-header-title{
+	padding: 15px 30px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.content-header-link{
+	line-height: 60px;
+	margin-right: 20px;
+}
+
+.content-main{
+	margin: 0 15px;
+	background-color: white;
+	border-top: 5px solid #d2d6dd;
+}
+
+.content-main-header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.content-main-header-title{
+	padding: 20px;
+	font-size: 18px;
+}
+
+.search{
+	margin: 20px;
+}
+
+.search-form button{
+	color: white;
+}
+
+.list{
+	padding: 20px;
+}
+
+.list table{
+	width: 100%;
+}
+
+.list table thead tr th{
+	text-align: center;
+}
+
+.list table tbody tr td{
+	text-align: center;
+}
+
+#label{
+	padding: 2px 5px;
+	color: black;
+}
+
+.label-active-admin{
+	background-color: red;
+}
+
+.label-active-member{
+	background-color: orange;
+}
+
+.list table tbody tr td i{
+	color: white;
+}
+
+.list table tbody tr td img{
+	width: 100px;
+	height: auto;
+}
+
+.list table tbody tr td #fix{
+	background-color: #53a75b;
+}
+
+.list table tbody tr td #delete{
+	background-color: #dd4b39;
+}
+
+.content-footer{
+	margin-left: 550px;
+}
+
+.content-footer .pagination{
+	margin-top: 50px; 
+}
+
+.user-login ul li a:hover{color: red;}
+.sidebar-menu ul li:hover{background-color: #192125 ; border-left:3px solid #dd4b39;}
+.search-form button:hover{ transform:scale(1.05);}
+.list table tbody tr td button:hover{transform: scale(1.05);}
+.list table tbody:hover{cursor: pointer;}

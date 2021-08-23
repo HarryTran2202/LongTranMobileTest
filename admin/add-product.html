@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name= viewport content= width=device-width initial-scale=1.0>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  	<link rel="stylesheet" type="text/css" href="css/product-user.css">
+  	<script type="text/javascript" src="js/user.js"></script>
+	<title></title>
+</head>
+<body>
+<!-- header -->
+<header>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 d-sm-none d-none d-lg-block d-md-block">
+				<div class="header-title">
+					<h3><a href="index.html">Long Trần Mobile</a></h3>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+				<div class="user-login">
+					<a href="#" class="btn dropdown-toggle" type="button" data-toggle="dropdown" id="user-main">
+						<i class="fas fa-user"></i>&nbsp;
+						<span>Admin</span>
+					</a>
+					<ul class="dropdown-menu" role="menu">
+						<li>
+							<a href="#"><i class="fas fa-user"></i>&nbsp;Hồ sơ</a>
+						</li>
+						<li>
+							<a href="#"><i class="fas fa-sign-out-alt"></i>&nbsp;Đăng xuất</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<!-- end-header -->
+
+<!-- main -->
+<div class="main">
+	<div class="container-fluid" style="padding-left: 0">
+		<div class="row" style="margin-left: 0">
+			<div class="col-lg-2 col-md-2" style="padding-left: 0 ; padding-right: 0px;">
+				<div class="sidebar">
+					<div class="sidebar-user">
+						<div style="padding-right: 15px;"><img src="images/admin.png"></div>
+						<div>
+							<div class="sidebar-user-title">Admin Account</div>
+							<div style="display: flex;">
+								<img id="situation-color" idx="0" src="images/Green.png">
+								<img id="situation-color" idx="1" src="images/Red.png">
+								<img id="situation-color" idx="2" src="images/Yellow.png">
+								<div class="choice">
+									<select id="select">
+										<option idx="0">
+											<div class="situation-title" idx="0">Online</div>
+										</option>
+										<option idx="1">
+											<div class="situation-title" idx="1">Absent</div>
+										</option>
+										<option idx="2">
+											<div class="situation-title" idx="2">Busy</div>
+										</option>
+									</select>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="control">Quản lý</div>
+					<div class="sidebar-menu">
+						<ul>
+							<li>
+								<a href="#">&nbsp;<i class="fas fa-user"></i>&nbsp;Quản trị viên</a>
+							</li>
+							<li>
+								<a href="#"><i class="fas fa-users"></i>&nbsp;Danh sách thành viên</a>
+							</li>
+							<li>
+								<a href="#"><i class="fas fa-shopping-cart"></i>&nbsp;Danh sách sản phẩm</a>
+							</li>
+							<li>
+								<a href="#"><i class="fas fa-folder"></i>&nbsp;Danh sách loại sản phẩm</a>
+							</li>
+							<li>
+								<a href="#"><i class="fas fa-folder-open">&nbsp;Chi tiết loại sản phẩm</i></a>
+							</li>
+							<li>
+								<a href="#"><i class="far fa-newspaper"></i>&nbsp;Danh sách tin tức</a>
+							</li>
+							<li>
+								<a href="#"><i class="fas fa-cart-plus"></i>&nbsp;Thêm mới sản phẩm</a>
+							</li>
+							<li>
+								<a href="#"><i class="fas fa-folder-plus"></i>&nbsp;Thêm mới loại sản phẩm</a>
+							</li>
+							<li>
+								<a href="#"><i class="fas fa-folder-open">&nbsp;Thêm chi tiết loại sản phẩm</i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fas fa-newspaper"></i>&nbsp;Thêm mới tin tức</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-10 col-md-10" style="padding: 0;">
+				<div class="content">
+					<div class="content-header">
+						<div class="content-header-title">Danh sách sản phẩm</div>
+						<div class="content-header-link">
+							<span><a href="#"><i class="fas fa-home"></i>&nbsp;Home </a> ></span>
+							<span>Danh sách sản phẩm</span>
+						</div>
+					</div>
+
+					<div class="content-main">
+						<div class="content-main-header">
+							<div class="content-main-header-title">
+								Danh sách
+							</div>
+						</div>
+
+						<div class="panel panel-default">
+							<div class="panel-body">
+								<div class="col-md-6">
+									<form method="post">
+										<div class="form-group">
+											<label>Tên sản phẩm:</label>
+											<input required type="text" name="name" placeholder="">
+										</div>
+										<div class="form-group">
+											<label>Mô tả:</label>
+											<input required type="text" name="des" placeholder="">
+										</div>
+										<div class="form-group">
+											<label>Giá cũ</label>
+											<input required type="number" name="old-price" placeholder="">
+										</div>
+										<div class="form-group">
+											<label>Giá mới</label>
+											<input required type="number" name="new-price" placeholder="">
+										</div>
+										<div class="form-group">
+											<label>Nổi bật</label>
+											<input required type="text" name="sale" placeholder="">
+										</div>
+										<div class="form-group">
+											<label>Thông tin:</label>
+											<input required type="text" name="info"
+											placeholder="">
+										</div>
+										<div class="form-group">
+											<label>Đánh giá:</label>
+											<input required type="text" name="appriciate" placeholder="">
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end-main -->
+
+</body>
+</html>

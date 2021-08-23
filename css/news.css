@@ -1,0 +1,165 @@
+body{
+	font-family: Arial;
+	margin: 0;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.header-top{
+	padding: 0 3px;
+	line-height: 30px;
+	background-color: #f4f4f4;
+}
+
+.container{
+	margin: auto;
+	padding: 0 15px;
+}
+
+.row{
+	width: 1140px;
+}
+
+.row span{
+	font-size: 13px;
+}
+
+.header-top-Amenu{
+	display: flex;
+	font-size: 13px;
+	float: right;
+	margin: 0;
+}
+
+.header-top-Amenu li{
+	padding: 0 15px;
+}
+
+.header-top-Amenu span:hover{
+	color: red;
+	cursor: pointer;
+}
+
+.header-top-Amenu a:hover{
+	color: red;
+}
+
+.header-wrapper{
+	background-color: #428df0;
+	height: 60px;
+	text-align: center;
+	padding: 0 3px;
+}
+
+#header-select{
+	margin-left: 10px;
+	width: 25%;
+	height: 43px;
+}
+
+#header-select select{
+	width: 100%;
+	height: 43px;
+	margin-top: 8px;
+	border: 1px solid #428df0;
+	color: #428df0;
+	background-color: #fbf1e9;
+}
+
+.header-search{
+	width: 50%;
+	height: 43px;
+}
+
+.search-form{
+	position: relative;
+}
+
+.search-form input{
+	width: 100%;
+	height: 43px;
+	margin-top: 8px;
+	border: 1px solid #428df0;
+}
+
+.search-form i{
+	position: absolute;
+	right: 10px;
+	top: 22px;
+}
+
+.header-wrapper-menu li{
+	padding: 0 20px;
+}
+
+.header-wrapper-menu a{
+	color: white;
+}
+
+.main-content{
+	padding-top: 20px;
+	background-color: #f1f1f1;
+}
+
+.news-header{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px 0;
+}
+
+.main-content .list-news{
+	background-color: white;
+}
+
+.main-content .news{
+	width: 100%;
+}
+
+.main-content .news img{
+	width: 300px;
+	height: auto;
+	float: left;
+	padding: 20px;
+}
+
+.main-content .news .news-content{
+	padding: 20px;
+}
+
+.main-content .news .news-content .news-title{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.main-content .news .news-content .infor{
+	color: #428df0;
+	font-weight: bold;
+}
+
+.main-content .news .news-content .text{
+	font-size: 14px;
+	text-align: justify;
+}
+
+footer{
+	color: white;
+}
+
+footer p{
+	font-size: 14px;
+}
+
+#footer-col{
+	padding-top: 16px;
+}
